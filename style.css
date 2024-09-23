@@ -53,6 +53,8 @@ a {
     padding: 150px 0;
 }
 
+/* 1° Section */
+
 .bg-blue {
     background-image:url("/img/jumbo.png");
     background-size: cover;
@@ -60,15 +62,76 @@ a {
     background-position: 0%;
 }
 
-.bg-gray {
-    background-color: #d3d3d3;
-    padding: 35px;
+.col-80 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    padding: 60px;
+    gap: 10px;
+    color: rgb(243, 243, 243);
 }
+
+/* 2° Section */
 
 .bg-white {
     background-color: #ffffff;
     padding: 35px;
 }
+
+.col-img1 {
+    width: 55%;
+    padding: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image:url("/img/item1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    border-radius: 25px;
+    border: 2px
+}
+
+
+.col-info-discord {
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 3° section */
+
+.col-img2 {
+    width: 55%;
+    padding: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image:url("/img/item2.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    border-radius: 25px;
+    border: 2px
+}
+
+.col-40 {
+    background-color: #f08080;
+    width: 40%;
+    padding: 200px 150px ;
+}
+
+
+
+.bg-gray {
+    background-color: #d3d3d3;
+    padding: 35px;
+}
+
 
 .bg-black {
     background-color: #030303;
@@ -112,16 +175,6 @@ a {
     padding: 250px;
 }
 
-.col-80 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 80%;
-    padding: 60px;
-    gap: 10px;
-    color: rgb(243, 243, 243);
-}
 
 
 [class^="button"] {
@@ -144,18 +197,7 @@ a {
     color: rgb(255, 255, 255);
 }
 
-.col-70 {
-    background-color: #1e90ff;
-    width: 60%;
-    padding: 140px;
-}
 
-
-.col-40 {
-    background-color: #f08080;
-    width: 40%;
-    padding: 200px 150px ;
-}
 
 .col-30 {
     background-color: #ffc0cb;
