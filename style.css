@@ -96,7 +96,7 @@ a {
 }
 
 
-.col-info-discord {
+.col-infodiscord {
     width: 40%;
     justify-content: center;
     align-items: center;
@@ -118,6 +118,27 @@ a {
     border-radius: 25px;
     border: 2px
 }
+
+/* 4° section */
+
+
+.col-img3 {
+    width: 70%;
+    padding: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image:url("/img/item3.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    border-radius: 25px;
+    border: 2px
+}
+
+
+
 
 .col-40 {
     background-color: #f08080;
