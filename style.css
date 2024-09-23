@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.main-header {
+    background-color: #a2cad7;
+    padding: 10px 0;
+}
+
+.navbar {
+    margin: 0px auto;
+    max-width: 835px;
+}
+
+
+.navbar-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.logo, .logo-footer, .button, .login {
+    display: inline-block;
+    border: 3px dashed; 
+}
+
+.login {
+padding: 10px 20px;
+}
+
+.logo {
+    padding: 10px 20px;
+}
+
+.logo-footer {
+    padding: 5px 15px 5px;
+
+}
+
+.button {
+    padding: 5px 15px 5px;
+}
+
+.main-menu {
+    display: flex;
+    gap: 10px;
+    padding: 10px 120px 10px 120px;
+    border: 3px dashed; 
+}
+
+.section {
+    padding: 150px 0;
+}
+
+.bg-blue {
+    background-color: #04047e;
+    padding: 35px;
+}
+
+.bg-gray {
+    background-color: #d3d3d3;
+    padding: 35px;
+}
+
+.bg-white {
+    background-color: #ffffff;
+    padding: 35px;
+}
+
+.bg-black {
+    background-color: #030303;
+    padding: 35px; 
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.footer {
+    border-bottom: 1px solid rgba(255,255,255,.25);
+    background-color: rgb(0, 0, 0);
+    padding: 20px 0px;
+}
+
+.footer-container {
+    margin: 0px auto;
+    max-width: 835px;
+    background-color: #61bb9d;
+    padding: 15px 0px;
+}
+
+.row-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+[class^="col-"] {
+    border: dashed;
+}
+
+
+.col-100 {
+    background-color: #228b22;
+    width: 100%;
+    padding: 250px;
+}
+
+.col-80 {
+    background-color: #b767b7;
+    width: 80%;
+    padding: 140px;
+}
+
+.col-70 {
+    background-color: #1e90ff;
+    width: 60%;
+    padding: 140px;
+}
+
+
+.col-40 {
+    background-color: #f08080;
+    width: 40%;
+    padding: 200px 150px ;
+}
+
+.col-30 {
+    background-color: #ffc0cb;
+    width: 40%;
+    padding: 140px;
+}
+
+
+.col-15 {
+    background-color: #20b2aa;
+    padding: 200px 60px; 
+}
+
