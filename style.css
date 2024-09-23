@@ -17,7 +17,7 @@ a {
 }
 
 .main-header {
-    background-color: #a2cad7;
+    background-color: #255ee9;
     padding: 10px 0;
 }
 
@@ -69,7 +69,9 @@ padding: 10px 20px;
 
 .bg-blue {
     background-color: #04047e;
-    padding: 35px;
+    background-image:url("/img/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .bg-gray {
